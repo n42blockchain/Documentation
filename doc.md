@@ -7,7 +7,7 @@ To **lower the development barrier**, N42 offers **a set of open-source smart co
 ---
 
 ## **Available API Documentation**
-### **[1. Gaming Interface](https://github.com/n42blockchain/Documentation/blob/main/N42GameFi.md)**
+### **[1. Gaming Interface](https://github.com/n42blockchain/Documentation/blob/main/gameFi.md)**
 ### **[2. Prediction Market](https://github.com/n42blockchain/Documentation/blob/main/Decentralized%20Prediction%20Market.md)**
 ### **[3. Payment](https://github.com/n42blockchain/Documentation/blob/main/payment.md)**
 ### **[4. Social](https://github.com/n42blockchain/Documentation/blob/main/social.md)**
