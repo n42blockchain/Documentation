@@ -167,7 +167,7 @@ N42 的支付接口提供了一套高效、安全、可扩展的解决方案，�
 ---
 
 ## **8. 相关链接**
-- **官方文档**: [docs.n42.io]([https://docs.n42.io](https://github.com/n42blockchain/Documentation/edit/main/doc.md))
-- **GitHub**: [github.com/n42]([https://github.com/n42](https://github.com/n42blockchain))
+- **官方文档**: [Documentations.n42.io](https://github.com/n42blockchain/Documentation/edit/main/doc.md)
+- **GitHub**: [github.com/n42blockchain](https://github.com/n42blockchain)
 - **社区支持**: [X](https://x.com/N42Blockchain) | [Telegram](https://t.me/N42chain)
 ```
