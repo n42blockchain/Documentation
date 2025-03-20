@@ -132,4 +132,42 @@ Content-Type: application/json
   "signature": "MEUCIQD...q9yz+Xf==" 
 }
 ```
+### **4.2 防重放攻击**
+- **时间戳验证**：所有交易必须包含 `timestamp` 字段，并在 60 秒内有效。
+- **一次性交易哈希**：交易 ID 由内容哈希生成，确保唯一性。
 
+### **4.3 访问控制**
+- **OAuth2 认证**：所有 API 调用需携带 `Authorization` 令牌。
+- **IP 白名单**：支持限制 API 访问源，防止 DDoS 攻击。
+
+---
+
+## **5. 最佳实践**
+### **5.1 高效处理交易**
+- **使用 WebSocket 监听状态**：避免频繁轮询，减少 API 调用负载。
+- **批量支付优化**：对小额多笔交易，可使用“聚合支付”机制降低 Gas 费。
+
+### **5.2 保障支付成功率**
+- **提前计算 Gas 费**：调用 `/api/v1/gas-estimate` 预估支付成本。
+- **设置合理的 TTL**：未确认的支付应自动取消，避免资金冻结。
+
+---
+
+## **6. 未来扩展**
+N42 计划在后续版本中引入：
+- **zk-Rollups 结算**：提升交易吞吐量并降低成本。
+- **闪电支付（Lightning Payments）**：支持超低延迟支付，提高用户体验。
+- **AI 驱动的欺诈检测**：利用机器学习分析交易行为，自动识别风险交易。
+
+---
+
+## **7. 结论**
+N42 的支付接口提供了一套高效、安全、可扩展的解决方案，支持全球用户进行去中心化交易。开发者可以轻松集成 API，实现从数字资产支付到智能合约交易的无缝体验。未来，N42 还将持续优化，推动 Web3 生态支付的普及与创新。
+
+---
+
+## **8. 相关链接**
+- **官方文档**: [docs.n42.io]([https://docs.n42.io](https://github.com/n42blockchain/Documentation/edit/main/doc.md))
+- **GitHub**: [github.com/n42]([https://github.com/n42](https://github.com/n42blockchain))
+- **社区支持**: [X](https://x.com/N42Blockchain) | [Telegram](https://t.me/N42chain)
+```
