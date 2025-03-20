@@ -17,3 +17,6 @@ To **lower the development barrier**, N42 offers **a set of open-source smart co
 ### **[8. Non-Fungible Tokens (NFTs)](https://github.com/n42blockchain/Documentation/blob/main/nft.md)**
 ### **[9. Decentralized Autonomous Organizations (DAO)](https://github.com/n42blockchain/Documentation/blob/main/dao.md)**  
 ### **[10. Metaverse](https://github.com/n42blockchain/Documentation/blob/main/metaverse.md)**  
+### **[11. IoT](https://github.com/n42blockchain/Documentation/blob/main/iot.md)**  
+### **[12. RWA](https://github.com/n42blockchain/Documentation/blob/main/rwa.md)**  
+### **[13. Carbon Trading](https://github.com/n42blockchain/Documentation/blob/main/carbontrading.md)**  
