@@ -20,3 +20,9 @@ To **lower the development barrier**, N42 offers **a set of open-source smart co
 ### **[11. IoT](https://github.com/n42blockchain/Documentation/blob/main/iot.md)**  
 ### **[12. RWA](https://github.com/n42blockchain/Documentation/blob/main/rwa.md)**  
 ### **[13. Carbon Trading](https://github.com/n42blockchain/Documentation/blob/main/carbontrading.md)**  
+### **[14. DePIN](https://github.com/n42blockchain/Documentation/blob/main/depin.md)**  
+### **[15. DID](https://github.com/n42blockchain/Documentation/blob/main/did.md)**  
+### **[16. ENS](https://github.com/n42blockchain/Documentation/blob/main/ens.md)**  
+### **[17. DeSci](https://github.com/n42blockchain/Documentation/blob/main/desci.md)**  
+### **[17. Supply Chain Provenance](https://github.com/n42blockchain/Documentation/blob/main/scp.md)**  
+
