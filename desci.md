@@ -1,4 +1,3 @@
-```markdown
 # **N42 Blockchain DeSci Interface Technical Documentation**
 
 ## **1. Introduction**
