@@ -180,11 +180,25 @@ POST /api/agent/report
 
 # 五、未来拓展
 
-未来将支持：
-- 模型链上注册与追踪（Model Provenance）
-- 模型输出验证与质押机制（Agent Slashing）
-- 链上 Agent Marketplace 与服务互操作标准（Agent Service Fabric）
-- 面向 DePIN / DeAI 场景的 Agent 网络协调机制
+## 1. 模型链上注册与追踪（Model Provenance）
+- 引入 `ModelRegistry` 合约，记录 AI 模型元数据（哈希值、创建者、时间戳、用途）。
+- 支持模型版本控制与链上引用追溯。
+- 模型调用需附带模型标识哈希，供验证与审计。
+
+## 2. 模型输出验证与质押机制（Agent Slashing）
+- Agent 提交推理结果时需附带可验证证明（如 zkML、模型哈希、输出哈希）。
+- 引入质押合约，当输出被社区或仲裁合约判定为错误，将扣除其质押。
+- 支持奖励机制，正确执行的 Agent 可获得链上激励。
+
+## 3. 链上 Agent Marketplace 与服务互操作标准（Agent Service Fabric）
+- 定义 `AgentServiceInterface` 统一描述 Agent 功能、输入输出格式。
+- 实现 Agent 服务注册、评分、合约调用自动适配，支持链上 Agent-to-Agent 服务组合调用。
+- 引入链上评分合约，基于调用次数、准确率、响应时间等数据生成服务声誉。
+
+## 4. 面向 DePIN / DeAI 场景的 Agent 网络协调机制
+- 为分布式物理设备、AI 模型提供 Agent 抽象代理层。
+- 支持 P2P Agent 通信协议（支持任务调度、带宽协商、模型下载等能力）。
+- 结合 Token 激励和链上仲裁，构建分布式 AI / IoT 协作网络（如智能车网协同、分布式计算网络）。
 
 '''
 以上为 N42 公链 AI Agent 接口规范的详细说明，可作为链上 AI 模块设计与开发的基础标准。
