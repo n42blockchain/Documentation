@@ -25,5 +25,5 @@ To **lower the development barrier**, N42 offers **a set of open-source smart co
 ### **[16. ENS](https://github.com/n42blockchain/Documentation/blob/main/ens.md)**  
 ### **[17. DeSci](https://github.com/n42blockchain/Documentation/blob/main/desci.md)**  
 ### **[18. Supply Chain Provenance](https://github.com/n42blockchain/Documentation/blob/main/scp.md)**  
-### **[19. AI Agent](https://github.com/n42blockchain/Documentation/blob/main/aiagent.md))**  
+### **[19. AI Agent](https://github.com/n42blockchain/Documentation/blob/main/aiagent.md)**  
 
